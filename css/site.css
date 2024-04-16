@@ -15,9 +15,11 @@ h1 {
   background-color: #f0e3d1;
 }
 
-.left {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #bc9a67;
+h2 {
+  font-family: sans-serif
+}
+
+p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 

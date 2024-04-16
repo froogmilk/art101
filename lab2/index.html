@@ -1,56 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 2 - My First HTML</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+    <link rel="stylesheet" type="text/css" href="css/helloworld.css">
+    <meta charset="utf-8">
+    <title>Lab 2 - My First HTML</title>
 </head>
+
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Hello World</h1>
-			<p> My partner is Jacky! She and I live on the same floor and have a lot in common. 
-                We both love cats, she has a super cute cat named Kitty! Her favorite color is blue 
-                and I love hanging out with her :3</p>
-				<img class="photo" src="IMG_3913.jpeg">
-			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-			</div>
-		</section>
-		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-		</nav>
-	</main>
+    <main class="content"> 
+        <div class="left">
+            <section>
+                <h1>Hello World</h1>
+                <div class="intro">
+                    <p> My name is Maya, I am a first year doube major in Art and Hisory of Art and Visual Culture.
+                        I love painting, drawing and reading. I also love to listen to music, I like all types but some
+                        of my favorite artists are David Bowie, Phoebe Bridgers and Fleetwood Mac! </p>
+                    <p> My partner is Jacky! She and I live on the same floor and have a lot in common.
+                        We both love cats, she has a super cute cat named Kitty! Her favorite color is blue
+                        and I love hanging out with her. She is a AGPM major and makes super cute games, I
+                        played fortnite for the first time with her but I was not good at all! I am super
+                        excited to be in this class with her since we both have an intrest in code.</p>
+                    <img class="photo" src="./img/IMG_3913.jpeg">
+                </div>
+            </section>
+        </div>
+        <div class="right">
+            <section>
+                <h1>Challenge</h1>
+                <div class="section">
+                    <p>The challenge of this lab is to learn HTML and CSS as well as experimenting
+                        with the tools we are
+                    <p>
+                </div>
+                <h1>Problems</h1>
+                <div class="section">
+                    <p>The main problems we faced though this lab was the positioning of text and images
+                        on the web page. We were able to overcome this problem by experimenting and using
+                        Wesbot as a tool to help us.
+                    </p>
+                </div>
+                <h1>Reflection</h1>
+                <div class="section">
+                    <p>We both think that this lab went verywell. We were able to create good looking
+                        websites using the skills taught to us and using the internt as a tool to help
+                        us through challenging parts.
+                    </p>
+                </div>
+                <h1>Results</h1>
+                <div class="section">
+                    <p>The results of this lab is a nice website that displays our efforts with color
+                        cordination and a cute image of us!
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>

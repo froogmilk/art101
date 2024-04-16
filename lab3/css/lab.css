@@ -4,5 +4,21 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #c8a374;
+    background-color:#c8a374;
   }
+
+.ss1 {
+  max-width: 300px;
+}
+
+.ss2 {
+  max-width: 300px;
+}
+
+.ss3 {
+  max-width: 270px;
+}
+
+.ss4 {
+  max-width: 300px;
+}
