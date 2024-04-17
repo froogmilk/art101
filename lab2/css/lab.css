@@ -4,25 +4,12 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    background-color:#f0e3d1;
+    border: solid 1px #000000;
+    background-color: #6c9766;
   }
 
-body {
-  background-color: #e5cead;
-}
-
-.ss1 {
-  max-width: 300px;
-}
-
-.ss2 {
-  max-width: 300px;
-}
-
-.ss3 {
-  max-width: 270px;
-}
-
-.ss4 {
-  max-width: 300px;
-}
+  .photo {
+    margin: 10px;
+    max-width: 500px;
+  }
+  
