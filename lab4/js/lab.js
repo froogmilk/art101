@@ -1,21 +1,50 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Pseudocode for walking through the woods
+// Author: Maya Kincaid <mlkincai@ucsc.edu>
+	// Jacky Ramos <jramos54@ucsc.edu>
+//Date: April 2024
 
-// Constants
+  Start
+    // set clothing attire for forest: 
+      // shoes
+	    // sweater
+	    // pants
+    // set needed supplies: 
+	    // headphones 
+	    // phone 
+	    // water
+    // exit building 
+	    // closest exit
+    // wander woods 
+	    // if break in path
+		    // select direction
+			    // north
+		    // else
+			    // east
+		    // else
+			    // west 
+		    //else 
+			    // south
 
-// Functions
+// Pseudocode iMessage Anagrams Game
+// Author: Maya Kincaid <mlkincai@ucsc.edu>
+  // Jacky Ramos <jramos54@ucsc.edu>
+// Date: April 23 2024
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+Start
+// set rules of game 
+  // combine letters to make words in 60 seconds
+  // player with most combinations win
+// set words score value on top of margin
+// set empty slots
+  // create six vertical rectangles with empty values
+    // set six letters underneath 
+// assign players: randomized alphabet
+  // accept user input
+    // evaluate word possibility 
+      // if actual word detected 
+        // add score 
+      // else 
+        // return letters
+// finish minute timer
+    // display words
+      // compare results to opponent
