@@ -1,9 +1,58 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background-color: #f0e3d1;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.fiat {
+  max-width: 350px;
+  padding-top: 23px;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 150%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: solid 3px rgb(255, 254, 254);
+  background-color: #e5cead;
+  color: rgb(255, 254, 254);
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 150%;
+  color: rgb(255, 254, 254);
+}
+
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  background-color: #e5cead;
+  border: solid 3px rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  background-color: #e5cead;
+  border: solid 3px rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.right {
+  flex: 1;
+}
