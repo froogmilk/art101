@@ -46,3 +46,11 @@ h2 {
 .ss4 {
   max-width: 300px;
 }
+
+figcaption {
+  padding: 10px;
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
