@@ -1,5 +1,5 @@
 // Author: Maya Kincaid <mlkincai@ucsc.edu>
-// Created: 01 04 2024
+// Created: 01 05 2024
 
 // sortUserNaame -  a function that takes user input and sorts the letters
 // of their name 
