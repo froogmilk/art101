@@ -12,12 +12,21 @@ console.log("What is 4 + 2?", addIt(4));
 var numArray = [1, 2, 3, 4, 5];
 console.log("My array", numArray);
 
-var results = numArray.map(addIt);
+var result = numArray.map(addIt);
 // should return added numbers to array
-console.log("Test of added numbers to array:", results);
+console.log("2 added to array:", result);
+
+var subtractResult = numArray.map(function(x){
+    return (10 - x);
+})
 
 numArray.map(function(x) {
     var results = (10 - x);
     return results;
 })
 
+// should return results of the array subtracting from 10
+console.log("Subtracting from 10 with the array:", subtractResult);
+
+var mapResults = numArray.map(addIt);
+console.log("Results: ", mapResults)
