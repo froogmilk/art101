@@ -30,3 +30,11 @@ console.log("Subtracting from 10 with the array:", subtractResult);
 
 var mapResults = numArray.map(addIt);
 console.log("Results: ", mapResults)
+
+$("#output").html('Original array: ' + numArray);
+
+
+$("#output2").html('When adding 2 to the array: ' + mapResults);
+
+
+$("#output3").html('Subtracting from 10 with the array: ' + subtractResult);
