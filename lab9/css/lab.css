@@ -51,8 +51,8 @@
   }
 
   .special {
-    background-color: lavender;
-    border: dotted 50px red;
-    color: pink;
+    background-color: #BBD5ED;
+    border: dotted 50px #ccffcb;
+    color: #38023B;
     font-weight: bold;
 }
