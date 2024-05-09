@@ -1,42 +1,13 @@
 // author: Maya Kincaid <mlkincai@ucsc.edu>
 // Date: May 8 2024
 
+$("output").html("Look what it can do!")
 
-// add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+//add button to challenge, problems, reflection and results section
+$(".minor-section").append ("<button class= 'buttonC' id='button-pressed'>Press me! :D</button>");
 
-// add a click listener to the challenge button
-$("#button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
-});
-
-
-// add button to problems section
-$("#problems").append("<button id='button-problems'>Make Special</button>");
-
-// add a click listener to the problems button
-$("#button-problems").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#problems").toggleClass("special");
-});
-
-
-// add button to reflection section
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
-
-// add a click listener to the reflection button
-$("#button-reflection").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#reflection").toggleClass("special");
-});
-
-
-// add button to results section
-$("#results").append("<button id='button-results'>Make Special</button>");
-
-// add a click listener to the results button
-$("#button-results").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#results").toggleClass("special");
-});
+//add a click listener to all buttons and toggle special effects
+$(".buttonC").click(function(){
+    //now add (or subtract) the "special" class to the section
+    $(this).parent().toggleClass("special");
+})
