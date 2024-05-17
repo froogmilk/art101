@@ -78,3 +78,36 @@
   font-size: medium;
   padding: .5%;
 }
+
+
+
+#output {
+  background-color: rgba(255, 255, 255, 0.639);
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: white;
+  min-height: 100px;
+}
+
+
+.text:nth-child(odd) {
+  text-align: left;
+}
+
+
+.text:nth-child(odd) p {
+  background-color: #60c1788d;
+  color: white;
+}
+
+
+.text:nth-child(even) {
+  text-align: right;
+}
+
+
+.text:nth-child(even) p {
+  background-color: #be9bda9b;
+  color: white;
+}
