@@ -3,7 +3,7 @@
 	// Jacky Ramos <jramos54@ucsc.edu>
 //Date: April 2024
 
-Start
+//Start
 // set clothing attire for forest: 
   // shoes
 	// sweater

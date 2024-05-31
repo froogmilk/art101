@@ -3,7 +3,7 @@
   // Jacky Ramos <jramos54@ucsc.edu>
 // Date: April 23 2024
 
-Start
+//Start
 // set rules of game 
   // combine letters to make words in 60 seconds
   // player with most combinations win
