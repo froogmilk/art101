@@ -1,5 +1,5 @@
 // author: Maya Kincaid <mlkincai@ucsc.edu>
-// Date: May 16 2024
+// Date: May 31 2024
 
 function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
